@@ -5,8 +5,8 @@
   font-family: "Outfit", sans-serif;
 }
 
-@theme{
-  --color-primary: #5044E5;
+:root {
+  --primary: #243B6B;
 }
 
 .reset-tw, .reset-tw *{
@@ -15,4 +15,17 @@
 
 .cl-drawerRoot{
   z-index: 10;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-inner {
+  animation: marquee 30s linear infinite;
 }
