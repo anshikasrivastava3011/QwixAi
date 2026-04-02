@@ -2,34 +2,34 @@ import { assets } from "../assets/assets";
 
 const Testimonial = () => {
   const dummyTestimonialData = [
-    {
-      image:
-        "https://images.unsplash.com/photo-1723990720514-65968a7d517b?q=80&w=779&auto=format&fit=crop",
-      name: "Jignesh Patel",
-      title: "Marketing Director, TechCorp",
-      content:
-        "ContentAI has revolutionized our content workflow. The quality of the articles is outstanding, and it saves us hours of work every week.",
-      rating: 4,
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1589386417686-0d34b5903d23?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "Suraj Mehta",
-      title: "Content Creator, TechCorp",
-      content:
-        "ContentAI has made our content creation process effortless. The AI tools have helped us produce high-quality content faster than ever before.",
-      rating: 5,
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1758518729459-235dcaadc611?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "Sarah Lee",
-      title: "Content Writer, TechCorp",
-      content:
-        "ContentAI has transformed our content creation process. The AI tools have helped us produce high-quality content faster than ever before.",
-      rating: 4,
-    },
-  ];
+  {
+    image:
+      "https://images.unsplash.com/photo-1723990720514-65968a7d517b?q=80&w=779&auto=format&fit=crop",
+    name: "Jignesh Patel",
+    title: "Marketing Director, TechCorp",
+    content:
+      "QwixAI has completely streamlined our marketing campaigns. We now generate engaging blog posts and ad copies in minutes instead of hours.",
+    rating: 4,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1589386417686-0d34b5903d23?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Suraj Mehta",
+    title: "Content Creator, TechCorp",
+    content:
+      "As a creator, speed matters a lot. QwixAI helps me brainstorm ideas, write scripts, and polish content without creative burnout.",
+    rating: 5,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1758518729459-235dcaadc611?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Sarah Lee",
+    title: "Content Writer, TechCorp",
+    content:
+      "What I love most is the consistency. ContentAI maintains tone, improves clarity, and helps me meet tight deadlines with confidence.",
+    rating: 4,
+  },
+];
 
   return (
     <div className="px-4 sm:px-20 xl:px-32 py-24">
