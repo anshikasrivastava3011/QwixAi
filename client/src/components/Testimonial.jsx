@@ -26,7 +26,7 @@ const Testimonial = () => {
     name: "Sarah Lee",
     title: "Content Writer, TechCorp",
     content:
-      "What I love most is the consistency. ContentAI maintains tone, improves clarity, and helps me meet tight deadlines with confidence.",
+      "What I love most is the consistency. QwixAI maintains tone, improves clarity, and helps me meet tight deadlines with confidence.",
     rating: 4,
   },
 ];
